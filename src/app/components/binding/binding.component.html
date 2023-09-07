@@ -1,0 +1,38 @@
+        
+
+<div class="container bg-success bg-gradient">
+        <br/><h1 >Ejercicio 1</h1><br/>
+
+        <label for="edadUno">Ingrese Edad:</label>
+        <input id="edadUno" type="text" [(ngModel)]="edadUno" class="form-control"><br/><br/>
+
+        <label for="edadDos">Ingrese Edad:</label>
+        <input id="edadDos" type="text" [(ngModel)]="edadDos" class="form-control"><br/><br/>
+
+
+        <input class="btn btn-primary btn-lg"  type="button" value="Calcular" (click)="onClick($event)"/>
+        <input class="btn btn-primary btn-lg" type="button" value="Limpiar" (click)="limpiarValores()"/><br/><br/>
+
+        <label>Promedio de edades:</label>
+        <input type="text" [value]="promedio"  class="form-control" readonly><br/><br/>
+        <label>Suma de edades:</label>
+        <input type="text" [value]="suma" class="form-control" readonly>
+
+
+<br/><br/>
+</div>
+<br/><br/>
+
+<div class="container bg-primary bg-gradient">
+
+    <br/><h1>Ejercicio 2</h1><br/>
+    
+    <form>
+        <input type="text" placeholder="Nombre de Usuario" class="form-control"><br/><br/>
+        <input type="password" placeholder="Password" class="form-control"><br/><br/>
+        <input class="btn btn-success btn-lg" type="button" value="Login"><br/><br/>
+    </form>
+    
+<br/>     
+</div>
+
